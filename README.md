@@ -6,4 +6,4 @@ This method first introduced in [**THE VECTOR FIELD HISTOGRAM - FAST OBSTACLE AV
 ## Method
 
 The VFH method uses a two-dimensional Cartesian histogram grid as a world model. This world
-model is updated continuously with range data sampled by on-board range sensors
+model is updated continuously with range data sampled by on-board range sensors.
