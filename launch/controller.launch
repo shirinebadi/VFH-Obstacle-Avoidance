@@ -1,0 +1,14 @@
+<launch>
+    <node pkg="sen_two" type="routing.py" name="obstacle_detector" output="screen"></node>
+
+
+    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_funky_maze.launch">
+        <arg name="x_pos" value="0.0"/>
+        <arg name="y_pos" value="0.0"/>
+        <arg name="z_pos" value="0.0"/>
+        <arg name="yaw" value="0.0"/>
+    </include>
+
+
+   
+</launch>
